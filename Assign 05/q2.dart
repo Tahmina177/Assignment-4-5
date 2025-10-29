@@ -1,8 +1,9 @@
 import "dart:io";
 void main() {
   String fileName = "hello.txt";
-  String friendName = "\nNafis Mahmud";
+  String friendName = "\Nusrath";
   File file = File(fileName);
   file.writeAsStringSync(friendName, mode: FileMode.append);
-  print("Successfully appended \"Nafis Mahmud\" to \"$fileName\".");
+  print("Successfully appended \"Nusrath \" to \"$fileName\".");
+
 }
