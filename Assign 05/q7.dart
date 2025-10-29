@@ -3,9 +3,9 @@ import "dart:io";
 void main() {
   String fileName = "students.csv";
   List<Map<String, dynamic>> students = [
-    {"name": "mozid", "age": 50, "address": "7/8,londoni road"},
-    {"name": "Shahriar", "age": 65, "address": "11/5,Borbazar"},
-    {"name": "Safwan Faz", "age": 300, "address": "5/9,jalalabad"}
+    {"name": "Naji", "age": 22, "address": "7/8,londoni road"},
+    {"name": "Tasmi", "age": 20, "address": "11/5,Uposhahar"},
+    {"name": "Nusrath", "age": 21, "address": "5/9,Forest gate"}
   ];
   
   String csvContent = "Name,Age,Address\n";
@@ -28,3 +28,4 @@ void main() {
     print("An error occurred during file operation: $e");
   }
 }
+
