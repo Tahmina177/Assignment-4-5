@@ -1,6 +1,6 @@
 void main() {
   List<String> friendNames = [
-    'Mozid','Ifty','Anik','Omit','Onim','Tamzid','Mihan','Shahriar'];
+    'Naji','Tasmi','Nusrath','Ruzela','Ifty','Tamzid','Eva','Shahriar'];
 
   Iterable<String> namesStartingWithA = friendNames.where(
     (name) => name.toLowerCase().startsWith('a')
@@ -9,4 +9,5 @@ void main() {
   print('All Friend Names: $friendNames');
   print('Names Starting with "a": ${namesStartingWithA.toList()}');
 }
+
 
